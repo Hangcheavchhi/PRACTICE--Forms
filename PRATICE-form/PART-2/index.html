@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+
+        <section class="info-section">
+            <h1>Need Help?</h1>
+            <p>We value your feedback! Use this form to reach out with questions, comments, or suggestions. Our team will respond promptly to ensure your experience is seamless.</p>
+        </section>
+
+
+        <section class="form-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                </div>
+
+                
+                <div class="form-group">
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+
+                
+                <div class="form-group">
+                    <input type="text" id="country" placeholder="Country" required>
+                </div>
+
+                
+                <div class="form-group">
+                    <select id="region" name="region" required>
+                        <option value="" disabled selected>Select Region</option>
+                        <option value="europe">Europe</option>
+                        <option value="africa">Africa</option>
+                        <option value="asia">Asia</option>
+                        <option value="america">America</option>
+                    </select>
+                </div>
+
+               
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+
+                
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                </div>
+
+               
+                <div class="form-group full-width">
+                    <input type="text" id="comments" placeholder="Comments (Max 250 chars)" maxlength="250">
+                </div>
+
+                
+                <div class="form-group full-width">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

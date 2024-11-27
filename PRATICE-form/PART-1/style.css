@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  background-color: #f8faff;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+#top {
+  background-color: #00d099;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+
+
+form {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-part {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00d099;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00eaab;
+  color: black;
+}
+
+/* Gender Section */
+#gender {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#gender input[type="radio"] {
+  margin-right: 5px;
+}
+#preferences > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#preferences > div:first-child div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}

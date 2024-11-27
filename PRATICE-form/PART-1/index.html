@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="top">Create Account</div>
+    <form>
+      <div class="form-part" id="name-part">
+        <div>
+          <h3>First Name</h3>
+          <input type="text" placeholder="Enter your first name">
+        </div>
+        <div>
+          <h3>Last Name</h3>
+          <input type="text" placeholder="Enter your last name">
+        </div>
+      </div>
+      <div class="form-part" id="email-part">
+        <h3>Email</h3>
+        <input type="email" placeholder="Enter your email">
+      </div>
+      <div class="form-part" id="password-part">
+        <div>
+          <h3>Password</h3>
+          <input type="password" placeholder="Enter your password">
+        </div>
+        <div>
+          <h3>Confirm Password</h3>
+          <input type="password" placeholder="Re-enter your password">
+        </div>
+      </div>
+      <div class="form-part" id="info-part">
+        <div id="gender">
+          <h3>Gender</h3>
+          <input type="radio" id="male" name="gender">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender">
+          <label for="female">Female</label>
+        </div>
+      </div>
+      <div>
+        <h3>Source of Income</h3>
+        <select>
+          <option>Employed</option>
+          <option>Unemployed</option>
+          <option>Freelancer</option>
+        </select>
+      </div>
+      <div>
+        <h3>Upload Profile Picture</h3>
+        <input type="file">
+      </div>
+      <div id="preferences">
+        <div>
+          <h3>Hobbies</h3>
+          <div>
+            <div>
+              <input type="checkbox" id="music">
+              <label for="music">Music</label>
+            </div>
+            <div>
+              <input type="checkbox" id="sport">
+              <label for="sport">Sport</label>
+            </div>
+            <div>
+              <input type="checkbox" id="travel">
+              <label for="travel">Travel</label>
+            </div>
+            <div>
+              <input type="checkbox" id="movies">
+              <label for="movies">Movies</label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Income</h3>
+          <input type="range" min="0" max="100" value="50">
+          <div>$20k - $50k</div>
+        </div>
+        <div>
+          <h3>Age</h3>
+          <input type="number" min="0" value="18">
+        </div>
+      </div>
+      <div id="bio">
+        <h3>Bio</h3>
+        <textarea placeholder="Write something about yourself..." maxlength="250"></textarea>
+      </div>
+      <div id="button">
+        <button type="submit">Create</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
